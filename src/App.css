@@ -1,0 +1,110 @@
+body {
+  background-color: black;
+  color: white;
+
+
+}
+
+.max-center {
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f1014;
+  width: 100%;
+  padding: 15px;
+  color: white;
+}
+
+.container {
+  background-color: white;
+  padding-top: 30px;
+
+  display: grid;
+  gap: 15px;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.movie-cover {
+  width: 100%;
+  margin-bottom: 1px;
+}
+
+.movie-placeholder {
+  min-height: 358.13px;
+  background-color: black;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.hero {
+  position: relative;
+  min-height: 500px;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-title {
+  font-size: 72px;
+  color: white;
+  margin: 0;
+}
+
+.overview {
+  color: white;
+  background-color: burlywood;
+}
+
+.button {
+  background-color: #0f1014;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.hero-content {
+  max-width: 60%;
+  padding-bottom: 100px;
+
+}
+
+
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.movie-title {
+  font-size: 12px;
+}
+
+.button-close {
+  position: absolute;
+  z-index: 10;
+  bottom: 30px;
+  left: 30px;
+}
+
+.youtube-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
